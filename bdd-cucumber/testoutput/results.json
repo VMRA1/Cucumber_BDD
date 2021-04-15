@@ -1,0 +1,328 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7956000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on Login page",
+            "match": {
+              "location": "stepdefinitions.steps.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:58:26.000Z",
+        "line": 31,
+        "name": "test Login with deifferent data",
+        "description": "",
+        "id": "login-feature;test-login-with-deifferent-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 196000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.steps.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3879000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Submit button",
+            "match": {
+              "location": "stepdefinitions.steps.i_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the username as \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.steps.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6614000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on Login page",
+            "match": {
+              "location": "stepdefinitions.steps.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:58:38.583Z",
+        "line": 32,
+        "name": "test Login with deifferent data",
+        "description": "",
+        "id": "login-feature;test-login-with-deifferent-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter the username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.steps.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3696000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on Submit button",
+            "match": {
+              "location": "stepdefinitions.steps.i_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 219000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the username as \"Welcome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepdefinitions.steps.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 57664000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on Login page",
+            "match": {
+              "location": "stepdefinitions.steps.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-15T04:58:49.454Z",
+        "line": 35,
+        "name": "Login with negative data",
+        "description": "",
+        "id": "login-feature;login-with-negative-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter the username as \"Admi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admi\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepdefinitions.steps.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 98000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepdefinitions.steps.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1329000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I click on Submit button",
+            "match": {
+              "location": "stepdefinitions.steps.i_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I should see error message as \"Invalid credentials\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Invalid credentials\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepdefinitions.steps.i_should_see_error_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@InvalidLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "This feature includesfollowing scnarioes to validate\n1)Login as Admin\n2)Login as linda.anderson\n3)Login with negative data",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/Login.feature",
+    "tags": []
+  }
+]
